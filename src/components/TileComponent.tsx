@@ -13,7 +13,7 @@ interface TileComponentState
 };
 
 export default class TileComponent extends React.Component<TileComponentProps, TileComponentState>
-{   
+{
 
     constructor(props: TileComponentProps)
     {
@@ -22,24 +22,41 @@ export default class TileComponent extends React.Component<TileComponentProps, T
         this.state = {
             ordered: true
         };
-        
+
     };
 
     render(): React.ReactNode
     {
-
-
+        
         return (
             <div className="TileComponent-main">
-                <div className="one">1</div>
-                <div className="two">2</div>
-                <div className="three">3</div>
-                <div className="four">4</div>
-                <div className="five">5</div>
-                <div className="six">6</div>
-                <div className="seven">7</div>
-                <div className="eight">8</div>
-                <div className="nine">9</div>
+                <div className="one">
+                    <p>1</p>
+                </div>
+                <div className="two">
+                    <p>2</p>
+                </div>
+                <div className="three">
+                    <p>3</p>
+                </div>
+                <div className="four">
+                    <p>4</p>
+                </div>
+                <div className="five">
+                    <p>5</p>
+                </div>
+                <div className="six">
+                    <p>6</p>
+                </div>
+                <div className="seven">
+                    <p>7</p>
+                </div>
+                <div className="eight">
+                    <p>8</p>
+                </div>
+                <div className="nine">
+                    <p>9</p>
+                </div>
             </div>
         )
     }
