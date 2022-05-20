@@ -21,9 +21,6 @@ Running the image
 docker run -p 3000:3000 <desired_image_name>
 ```
 
-```
-REACT_APP_API_URL=http://myexample.com:7500 npm run start 
-```
 
 ## Available Scripts
 
