@@ -1,0 +1,63 @@
+.TileComponent-main {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); /* I chose 12 as it is easily divisible*/
+    gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+    margin: 10px;
+    color: white;
+    /* I want to make the text float to the center of the div vertically */
+}
+
+.one {
+    grid-column: 1 / 6;
+    grid-row: 1 / 5;
+    background-color: rgb(0, 135, 219);
+}
+
+.two {
+    grid-column: 6 / 13;
+    grid-row: 1 / 3;
+    background-color: rgb(237, 52, 88);
+}
+
+.three {
+    grid-column: 6 / 9;
+    grid-row: 3 / 5;
+    background-color: rgb(142, 122, 94);
+}
+
+.four {
+    grid-column: 9 / 13;
+    grid-row: 3 / 5;
+    background-color: rgb(189, 94, 97);
+}
+
+.five {
+    grid-column: 1 / 4;
+    grid-row: 5;
+    background-color: rgb(132, 0, 197);
+}
+
+.six {
+    grid-column: 1 / 4;
+    grid-row: 6 / 8;
+    background-color: rgb(0, 177, 160);
+}
+
+.seven {
+    grid-column: 4 / 9;
+    grid-row: 5 / 8;
+    background-color: rgb(0, 122, 104);
+}
+
+.eight {
+    grid-column: 9 / 13;
+    grid-row: 5 / 7;
+    background-color: rgb(106, 77, 247);
+}
+
+.nine {
+    grid-column: 9 / 13;
+    grid-row: 7 / 8;
+    background-color: rgb(69, 92, 108);
+}
